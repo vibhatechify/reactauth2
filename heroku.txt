@@ -1,0 +1,20 @@
+reactauth123 - app name
+
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+heroku --version -> 14
+server -> packge.json -> nodemon index.js -> node index.js
+add server -> .Procfile -> web: npm run start
+
+in server above connection url add
+-----------------
+app.get('/', (req, res) =>{
+    res.send('App is running')
+})
+
+now go to your server directory
+
+
+https://dashboard.heroku.com/apps/reactauth123/deploy/heroku-git
+heroku login
+
+
